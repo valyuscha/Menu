@@ -66,3 +66,20 @@
 .text {
   margin-top: 90px;
 }
+
+@media screen and (max-width: 540px) {
+  .menu {
+    &:nth-child(2) {
+      top: 81%;
+    }
+
+    &:last-child {
+      top: 170px;
+    }
+
+    .container {
+      flex-direction: column;
+      height: auto;
+    }
+  }
+}
